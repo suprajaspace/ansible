@@ -1,7 +1,7 @@
 - name: to print information
   hosts: web 
   vars:
-   prabhas: "Bahubali","Kalki"
+   prabhas: "Bahubali"
    mahesh: "Srimanthudu"
    NTR: "RRR"
   tasks:
