@@ -4,7 +4,7 @@
   tasks:
   - name: PLAY-01 TASK-01
     ansible.builtin.bebug:                                 
-     msg: "This is from PLAY-01 and TASK-01"              
+      msg: "This is from PLAY-01 and TASK-01"              
 
 #PLAY-02
 - name: PLAY-02
@@ -12,7 +12,7 @@
   tasks:
   - name: PLAY-02 TASK-01
     ansible.builtin.bebug:
-     msg: "This is from PLAY-02 and TASK-01"
+      msg: "This is from PLAY-02 and TASK-01"
 
    
    # to print msg using debug module
