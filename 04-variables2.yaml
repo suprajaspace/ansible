@@ -4,7 +4,7 @@
    prabhas: "Bahubali"
    mahesh: "Srimanthudu"
    NTR: "RRR"
-   tasks:
+  tasks:
    - name: movies
      ansible.builtin.debug:
        msg: "prabhas movies {{prabhas}}, mahesh babu movies{{mahesh}}, NTR movies {{NTR}}" 
